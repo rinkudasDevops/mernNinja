@@ -1,0 +1,35 @@
+p{
+    color:blue;
+    font-size:20px;
+}
+
+
+h1{
+    font-size:40px;
+}
+h4{
+    font-size: 25px;
+}
+/* h4{
+    text-transform:uppercase;
+} 
+    wrong with this is it will apply to all h4 tag present but my requirement only to second list h4 tags
+    now we have to use class selector   
+*/
+/* these are class selector */
+.upercase{
+    text-transform:uppercase;
+}
+/* h1{
+    text-transform:uppercase;
+    font-family: cursive;
+} */
+ .cursive{
+    font-family: cursive;
+ }
+
+ #blog-desc{
+    /* color:#ff9900 ; */
+    /* color:dark blue; */
+    color:dark grey;
+ }
