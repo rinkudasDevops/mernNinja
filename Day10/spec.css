@@ -1,0 +1,12 @@
+ p,h1{
+    font-family:sans-serif;
+ }
+ 
+ #blog-title:hover{
+   color:orange;
+   text-transform:uppercase;
+   background-color:black;
+   border-width: 2px;
+   background-size:cover;
+   background-position:30%;
+ }

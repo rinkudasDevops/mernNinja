@@ -1,0 +1,16 @@
+#div1{
+    height:200px ;
+    width: 200px;
+    background-color: aqua;
+}
+#div2{
+    height:50%;
+    width: 50%;
+    background-color: orange;
+}
+
+#div2:hover{
+    height: 200px;
+    width: 200px;
+    background-color:transparent;
+}
