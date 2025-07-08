@@ -1,0 +1,6 @@
+#border-on-element{
+    border: 2px solid red;
+}
+#sample-para{
+    border-left : 4px solid brown;
+}
