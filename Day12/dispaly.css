@@ -1,0 +1,34 @@
+#div1{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+}
+#div2{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    margin-left: -4px;
+}
+
+/* now i want to chane the display property for span tag 
+that is inline to block level using display property */
+span{
+    display: block;
+}
+/* now i want to change block level to inline level */
+div{
+    display: inline-block;
+
+}
+
+#para1{
+    color:red;
+    display: inline;
+}
+#para2{
+    color: blue;
+    display: inline;
+}
+#div2:hover{
+     visibility: hidden;
+}
