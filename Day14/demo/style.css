@@ -1,0 +1,35 @@
+#outer-div{
+    height: 50%;
+    width: 70%;
+    border: 2px solid aqua;
+
+}
+#div1{
+    height: 200px;
+    width: 200px;
+    border: 2px solid green;
+    background-color: blue;
+    position:sticky;
+    
+}
+#div2{
+    height: 200px;
+    width: 200px;
+    border: 2px solid yellow;
+    background-color: red;
+    
+}
+#div3{
+    height: 200px;
+    width: 200px;
+    border: 2px solid aqua;
+    background-color: green;
+    
+}
+#div4{
+    height: 200px;
+    width: 200px;
+    border: 2px solid cyan;
+    background-color: yellow;
+    
+}
