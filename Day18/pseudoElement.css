@@ -1,0 +1,27 @@
+ p::first-letter{ 
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+p::before{
+    content: '';
+    display: inline-block;
+    height:40px;
+    width: 40px;
+    background-image: url(ninjasicon.png);
+    background-size: contain;
+
+}
+
+h2::before{
+    content: 'before ';
+    font-size: 2rem;
+    font-weight: bold ;
+    text-transform: capitalize;
+}
+h2::after{
+    content: ' after';
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: capitalize;
+}

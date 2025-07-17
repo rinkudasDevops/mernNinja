@@ -1,0 +1,15 @@
+div{
+    margin: 40px;
+}
+p:active{
+    background-color: cyan;
+}
+a:active{
+    color: yellow;
+}
+a:visited{
+    color: orange;
+}
+a:link{
+    color:aliceblue;
+}
