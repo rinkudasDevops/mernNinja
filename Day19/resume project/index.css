@@ -1,0 +1,274 @@
+body{
+margin: 0px;
+}
+.icons img{
+   height: 32px;
+   width: 27px;
+   display: inline-block;
+}
+section{
+   /* height:0vh; */
+   width: 100%;
+   /* align-items: center; */
+   
+}
+section:nth-child(2n){
+   background-color:white ;
+}
+section:nth-child(2n+1){
+   background-color: grey;
+}
+#body-header{
+    height: 60vh;
+    background-image: url("images/macbook_mouse.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+     opacity: 0.8;
+}
+.horizontal-list{
+    margin: 0px;
+    padding-left: opx;
+    /* text-align: center; */
+}
+.horizontal-list li{
+    display: inline-block;
+    margin: 20px 8px 8px 0px;
+}
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+.navbar li a:hover{
+   color:brown;
+   border-bottom: 3px solid blue;
+}
+.center-text{
+    text-align: center;
+}
+/* #my-name{
+    color: white;
+    padding-top: 100px;
+    font-size: 75px;
+} */
+ /* social icons  */
+ #social-icon-container{
+    margin-top: 20vh;
+ }
+ #my-name{
+    color: white;
+    font-size: 3rem;
+    letter-spacing: .1rem;
+    font-weight: 700;
+    margin-bottom:0.5rem ;
+ }
+ .social-icon li a img{
+    padding: 10px;
+    background-color:white;
+    height: 27px;
+    width:27px;
+    border-radius: 60%;
+ }
+ .social-icon li a img:hover{
+    box-shadow: 0px 0px 6px 6px red;
+ }
+
+ /* about section */
+ #about{
+    height: auto;
+    width: 100%;
+    position: relative;
+ }
+ #my-image{
+    height: 12rem;
+    width: 12rem;
+    margin: auto;
+    /* margin-top:-13vh; */
+ }
+ #my-image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 60%;
+    box-shadow: 0px 0px 2px 3px white;
+    margin-top: -13vh;
+ }
+ #about-para{
+    text-align: center;
+    font-size: 22px;
+    padding-left: 25%;
+    padding-right: 25%;
+ }
+ 
+ /* skill section */
+ #skills{
+   width: 100%;
+   align-content: center;
+ }
+ 
+.mb75px{
+   margin-bottom: 75px;
+}
+.ml50px{
+   margin-left: 50px;
+}
+.mr50px{
+   margin-right: 50px;
+}
+.heading-section{
+   width: auto;
+   padding: 20px 10px 10px;
+   margin: 10px auto;
+   font-weight: 400;
+   text-align: center;
+}
+.heading-section span{
+   font-size: 40px;
+   color: #2857a4;
+   display: inline-block;
+   padding-top: 10px;
+   margin-right: 0.rem;
+}
+
+.flex-container{
+   display:flex;
+   align-content: center;
+   flex-wrap: wrap; 
+   justify-content:space-between;
+   /* align-items: center; */
+   justify-content: center;
+}
+.center-content{
+   align-items: center;
+}
+.skill-progress{
+   width: 7rem;
+   height: 1.4rem;
+   border-radius: .8rem;
+   border: 2px solid black;
+}
+.eighty-five-percent{
+   width: 85%;
+   height: inherit;
+}
+.skill-name span{
+   color: white;
+   font-size: 1rem;
+   margin-left:10px;
+}
+.skill-progress>div{
+   border-radius: 20px 0px 0px 20px;
+}
+.mb-blue{
+   background-color: blue;
+}
+.mb-orange{
+   background-color: orange;
+}
+.seventy-percent{
+   width: 70%;
+   height: inherit;
+}
+
+
+
+
+/* work experience section working going on  */
+.timeline{
+
+   /* position:relative; */
+  box-sizing: border-box;
+  max-width: 100%;
+  max-height: fit-content;
+  position: relative;
+   /* height: 400px; */
+   /* margin: 5px; */
+   /* left:25%; */
+   /* right: 25%; */
+   width: 75%;
+   margin-left: 12.5%;
+   margin-right: 12.5%;
+   /* align-items: center; */
+   border:2px solid black;
+   
+}
+.timeline-box{
+   position: relative;
+   margin: 5px;
+   padding-top: 0px;
+   width: 40%;
+   left: 5%;
+   border: 2px solid black;
+   min-height: 150px;
+
+}
+.timeline-box:nth-child(2n){
+   left: 53%;
+}
+.experience-content{
+   display: inline;
+   /* margin: 0; */
+   margin-left: 40%;
+   padding: 0;
+   text-align: right;
+}
+.experience-content h1,h3{
+   margin: 0px;
+   padding: 0px;
+}
+.experience-content h1{
+   color: blue;
+}
+h3:nth-of-type(1){
+   color: orange;
+}
+.exp{
+   /* height: 200px; */
+   /* width: 200px; */
+   /* max-width: fit-content; */
+   display: flex;
+   /* height: 50%; */
+   /* width: 100%; */
+   position: relative;
+
+}
+/* .exp div:nth-of-type(2){
+   text-align: right;
+} */
+.experience-logo img{
+   /* margin: 0px; */
+   /* padding:0px; */
+   /* margin-left: 10px; */
+   /* display: inline; */
+   padding-top:10px ;
+   padding-left: 10px;
+   position: relative;
+   height: 50px;
+   width: 40px;
+}
+
+
+/* timeline animation */
+.timeline-divider{
+   position:absolute;
+   height: 75%;
+   width: 0;
+   border: 3px dashed #0096fa6b;
+   top: 10%;
+   left: 50%;
+}
+
+.timeline-traveller{
+   position: sticky;
+   top: 25%;
+   
+
+}
+.timeline-traveller img{
+   /* position: sticky; */
+   height: 32px;
+   width: 32px;
+   margin: 0;
+   padding: 0;
+   transform: rotate(90deg);
+}
