@@ -1,0 +1,77 @@
+div{
+    /* height: 100px; */
+    /* width: 100px; */
+    /* margin-top: 20%; */
+    /* margin-left: 20%; */
+    /* background-color: aquamarine; */
+    /* transform: rotate(120deg); */
+    /* transform: rotateZ(100deg); */
+    /* transform: rotateX(-12deg); */
+    /* transform: rotateY(60deg); */
+  /* transition: 1s ease-in-out; */
+  /* transition: all 2s ease-in-out; */
+  /* transition:height 2s ease-in-out ; */
+  /* transition: height 2s ease-in-out .5s; */
+  /* transition: 4s ease-in-out .5s; */
+    
+}
+
+
+/* div:hover{
+    height: 400px;
+}
+div:hover{
+    width: 400px;
+} */
+
+/* div:hover{
+     height: 400px;
+     width: 400px; 
+
+} */
+
+
+/* animation scaling 1.5 along y direction and transition timing 2s 
+i will use here transform:scale(1.5,0.4) and  */
+
+
+/* div{
+    height:100px;
+    width: 100px;
+    margin-top: 20%;
+    margin-left: 20%;
+    background-color: grey;
+    transition: 2s ease-in-out;
+} */
+/* div:hover{
+  /* transform: scale(1.5); */
+  /* transform: scale(1.5) translate(200px); */
+  /* border-radius: 50%; */
+  /* box-shadow: 2px solid red;
+  }
+ */
+
+
+
+ /* animation 2 which translate along z direction with changing border radius to circle */
+
+ /* div{
+    height:150px;
+    width: 150px;
+    margin-top: 10%;
+    margin-left: 10%;
+    background-color: brown;
+    transition: 1s ease-in-out;
+ }
+
+ div:hover{
+    border-radius: 50%;
+    transform: translateY(-100px) translateX(150px)  rotate(360deg);
+
+ } */
+
+
+
+
+
+ 
