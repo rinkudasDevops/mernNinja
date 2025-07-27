@@ -1,0 +1,132 @@
+#div1{
+    height: 100px;
+    width: 100px;
+    margin-top: 100px;
+    margin-left: 100px;
+    text-align: center;
+    background-color: black;
+    animation:changeShape 1s infinite;
+}
+
+@keyframes changeShape 
+{
+    0%{
+        background-color: black;
+    }
+    10%{
+        background-color: blue;
+    }
+    20%{
+        background-color: aqua;
+    }
+    30%{
+        background-color: blueviolet;
+    }
+    40%{
+        background-color: brown;
+    }
+    50%{
+        background-color: chartreuse;
+    }
+    60%{
+        background-color: chocolate;
+    }
+    70%{
+        background-color: cornflowerblue;
+    }
+    80%{
+        background-color: crimson;
+    }
+    90%{
+        background-color: cyan;
+    }
+    100%{
+        background-color: lawngreen;
+    }
+}
+
+#div2{
+    width: 100px;
+    height: 100px;
+    margin-top: 200px;
+    margin-left: 500px;
+    text-align: center;
+    color: aliceblue;
+    background-color: blue;
+    animation:rotateSquare 1s infinite;
+}
+@keyframes rotateSquare{
+    50%{
+     transform: rotateZ(360deg);
+    }
+    100%{
+        transform: rotateZ(-360deg);
+    }
+}
+
+#div3{
+    height: 100px;
+    width: 100px;
+    margin: 200px;
+    margin-left: 200px;
+    text-align: center;
+    border: 2px solid red;
+    background-color: tomato;
+    animation: Div3 2s infinite alternate;
+}
+@keyframes Div3{
+    0%{
+      border-radius:0%;
+    }
+    100%{
+      border-radius:50%;
+    }
+}
+
+#bounce-back{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    /* padding:; */
+    /* margin-top: 20%; */
+    /* margin-left:700px; */
+    animation: Bounce 1s ;
+    /* margin-bottom: 500px; */
+}
+/* hr{
+    height: 2px;
+    width: 100%;
+    background-color:black;
+} */
+
+@keyframes Bounce{
+      0%{
+        transform: translate();
+      }
+      50%{
+        transform: translate(200px);
+      }
+      75%{
+        transform: translate(-200px);
+      }
+      100%{
+        transform: translate(-200px);
+      }
+
+}
+
+#fade{
+    margin: 50px;
+    width:fit-content;
+    border: 2px solid palegreen;
+    background-color:lightcyan;
+    animation: fade .1s infinite ;
+}
+@keyframes fade{
+    0%{
+     opacity: 0;
+    }
+    100%{
+    opacity: 1;
+    }
+}

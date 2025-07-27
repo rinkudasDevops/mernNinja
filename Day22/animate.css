@@ -1,0 +1,39 @@
+.one{
+    position:absolute;
+    left: 10%;
+    top: 10%;
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+}
+
+/* .animate__fadeIn{
+    animation-duration:1s;
+    animation-iteration-count: infinite;
+} */
+
+
+/* .animate__bounce{
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+} */
+
+/* .animate__flash{
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+} */
+
+/* .animate__pulse{
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+} */
+
+/* .animate__rubberBand{
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+} */
+
+.animate__swing{
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
